@@ -142,5 +142,5 @@ Exercise 8
 
 # Your code here
 
-print('Exercise 7:', foods_with_an_a)
+print('Exercise 8:', foods_with_an_a)
 ```
