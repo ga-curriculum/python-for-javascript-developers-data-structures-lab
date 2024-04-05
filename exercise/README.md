@@ -117,7 +117,7 @@ Exercise 6
 print('Exercise 6:', cohort)
 ```
 
-### Exercise 7
+### Level Up: Exercise 7
 
 ```python
 """
@@ -131,7 +131,7 @@ Exercise 7
 print('Exercise 7:', awesome_students)
 ```
 
-### Exercise 8
+### Level Up: Exercise 8
 
 ```python
 """
