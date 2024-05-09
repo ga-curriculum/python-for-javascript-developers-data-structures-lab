@@ -1,4 +1,4 @@
-# ![Python Data Structures Lab](./assets/hero.png)
+# ![Python Data Structures Lab](./assets/tktk-hero.png)
 
 ## About
 
