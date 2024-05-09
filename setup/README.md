@@ -27,7 +27,7 @@ cd python-data-structures-lab
 Create a file for the lesson:
 
 ```bash
-touch app.py
+touch exercises.py
 ```
 
 Open the project's folder in your code editor:
