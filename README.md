@@ -2,15 +2,15 @@
 
 ## About
 
-In this lab, you will practice working with Python data structures.
+In this lab, you'll practice working with different data structures in Python, including lists, tuples, dictionaries, and more. By manipulating these data structures, you'll gain a better understanding of how to organize and store data effectively in your Python programs.
 
 ## Prerequisites
 
-- tktk
+- Python Data Structures
 
 ## Time to complete
 
-Estimated time to complete core lab exercise: **tktk min**
+Estimated time to complete core lab exercise: **60 min**
 
 ## Content
 
@@ -19,7 +19,7 @@ Estimated time to complete core lab exercise: **tktk min**
 
 ## Solution code
 
-🏁 [tktk Solution code](#tktk-external-repo-link-url)
+🏁 [Solution code](https://git.generalassemb.ly/modular-curriculum-all-courses/python-for-javascript-developers-data-structures-lab-solution)
 
 ## Internal resources
 

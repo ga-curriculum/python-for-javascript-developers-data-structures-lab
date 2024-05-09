@@ -1,146 +1,121 @@
 # ![Python Data Structures Lab - Exercise](./assets/hero.png)
 
-## Introduction
+## Welcome to the Python Data Structures Lab!
 
-This lab provides an opportunity to practice working with different data structures in Python.
+In this lab, you'll practice working with different data structures in Python, including lists, tuples, dictionaries, and more. By manipulating these data structures, you'll gain a better understanding of how to organize and store data effectively in your Python programs.
 
-If you are stuck during the lab, we recommend revisiting the lesson materials first. They are designed to provide you with the information and examples you need to complete the exercises. 
+By the end of this lab, you will be able to:
 
-If you've revisited the materials and are still facing challenges, don't hesitate to collaborate with your classmates.
+- Create and modify lists and tuples.
+- Utilize dictionaries for more complex data storage.
+- Iterate over data structures using loops.
+- Apply Python's slicing and indexing features to access data.
 
-## Lab exercises
+## Getting Started
 
-Copy and paste each of the following exercises into your `app.py` file. 
+- For each exercise, copy the provided code into a new Python script file named `exercises.py`.
+- Each exercise includes a function where you will write your code. The function structure helps you focus on working with the specific data structure required.
+- Follow the exercise instructions carefully to complete the code.
+- After completing each exercise, run `python3 exercises.py` in your terminal to see the output and test your code.
 
-To check your work, you can run the following command in your terminal:
+> If you encounter difficulties with the syntax for data structures, review the provided lesson materials or collaborate with your classmates.
 
-```bash
-python3 app.py
-```
+Let's dive in!
 
-### Exercise 1
-
-```python
-"""
-Exercise 1
-  - Create a list named students containing at least three student names (strings)
-  - Assign the second student’s name to a variable named first_student
-  - Assign the last student’s name to a variable named last_student
-"""
-
-# Your code here
-
-print('Exercise 1:', first_student, last_student)
-```
-
-### Exercise 2
+## Exercise 0: Example
 
 ```python
-"""
-Exercise 2
-  - Create a tuple named foods containing the same number of foods (strings) as there are names in the students list.
-  - Create a variable named meal and assign an empty string to it
-  - Use a for loop to iterate over the strings in foods and append each string to meal
-  - Example: A foods tuple containing 'Taco' and 'Salad' would result in meal being equal to 'TacoSalad'
-"""
+# Exercise 0: Example
+#
+# This is a practice exercise to familiarize you with basic Python data structures.
+#
+# Create a list called `example_list` and append three elements to it. Print each element using a loop.
+#
+# Requirements:
+# - The list should contain any three elements of your choice.
+# - Use a loop to print each element.
 
-# Your code here
+def example_list_function():
+  example_list = ['element1', 'element2', 'element3']
+  for element in example_list:
+      print(element)
 
-print('Exercise 2:', meal)
+# Call the function and print each element
+example_list_function()
 ```
 
-### Exercise 3
+## Exercise 1: List and Indexing
 
 ```python
-"""
-Exercise 3
-  - Using the slice operator, assign a new tuple containing only the last two food strings in the foods to a variable named last_two_foods
-"""
+# Exercise 1: List and Indexing
+#
+# Create a list named students containing at least three student names (strings).
+# Assign the second student’s name to a variable named first_student.
+# Assign the last student’s name to a variable named last_student.
 
-# Your code here
+def manage_students():
+    # your code here
 
-print('Exercise 3:', last_two_foods)
-
+# Call the function and print the result
+print('Exercise 1:', manage_students())
 ```
 
-### Exercise 4
+## Exercise 2: Loop and String Concatenation
 
 ```python
-"""
-Exercise 4
-  - Create a dictionary named home_town containing the keys of city, state and population.
-  - Using the home_town dictionary, assign to a variable named home_town_message  a string with this format: “I was born in <city>, <state> - population of <population>”
-  - Hint: Use an f-string!
-"""
+# Exercise 2: Loop and String Concatenation
+#
+# Create a tuple named foods containing the same number of foods (strings) as there are names in the students list.
+# Create a variable named meal and assign an empty string to it.
+# Use a for loop to iterate over the strings in foods and append each string to meal.
 
-# Your code here
+def combine_foods():
+    # your code here
 
-print('Exercise 4:', home_town_message)
+# Call the function and print the result
+print('Exercise 2:', combine_foods())
 ```
 
-### Exercise 5
+## Exercise 3: Slicing Tuples
 
 ```python
-"""
-Exercise 5
-  - Define an empty list named home_town_items
-  - Use a for loop to iterate over the key: value pairs in the home_town dictionary and append a string with the following format to home_town_items: "<key> = <value>"
-  - For example, home_town_items might look like: ['city = Arcadia', 'state = California', 'population = 58000']
-  - Hint: Using the <dict>.items() method allows for unpacking the key, value
-"""
+# Exercise 3: Slicing Tuples
+#
+# Using the slice operator, assign a new tuple containing only the last two food strings in the foods to a variable named last_two_foods.
 
-# Your code here
+def slice_foods():
+    # your code here
 
-print('Exercise 5:', home_town_items)
+# Call the function and print the result
+print('Exercise 3:', slice_foods())
 ```
 
-### Exercise 6
+## Exercise 4: Dictionaries and String Formatting
 
 ```python
-"""
-Exercise 6
-  - Create an empty list named cohort.
-  - Use a for loop to iterate over the students list.
-  - Hint: Use the enumerate function to be able to access both the index & student
-  - Within the for loop, append a dictionary to the cohort list that combines
-    the student’s name and the food in the foods list at the same index.
-    Each dictionary will have this shape:
-      {
-        'student': 'Tina',
-        'fav_food': 'Cheeseburger'
-      }
-  - Hint: Once again, unpacking the tuples returned by the enumerate function will make the code more readable.
-"""
+# Exercise 4: Dictionaries and String Formatting
+#
+# Create a dictionary named home_town containing the keys of city, state, and population.
+# Using the home_town dictionary, assign to a variable named home_town_message a string with this format: “I was born in <city>, <state> - population of <population>”
 
-# Your code here
+def hometown_info():
+    # your code here
 
-print('Exercise 6:', cohort)
+# Call the function and print the result
+print('Exercise 4:', hometown_info())
 ```
 
-### Level Up: Exercise 7
+## Exercise 5: Iterating Over Dictionary Items
 
 ```python
-"""
-Exercise 7
-  - Using the list of students and a list comprehension, assign to a variable named awesome_students a new list containing strings
-  - For example: ["Tina is awesome!", "Fred is awesome!", "Wilma is awesome!"]
-"""
+# Exercise 5: Iterating Over Dictionary Items
+#
+# Define an empty list named home_town_items.
+# Use a for loop to iterate over the key: value pairs in the home_town dictionary and append a string with the following format to home_town_items: "<key> = <value>"
 
-# Your code here
+def list_home_town_items():
+    # your code here
 
-print('Exercise 7:', awesome_students)
-```
-
-### Level Up: Exercise 8
-
-```python
-"""
-Exercise 8
-  - Assign to a variable named foods_with_an_a the result of list comprehension that filters the foods tuple to only include food strings that contain the letter a
-  - For example, if foods is a tuple of ('Taco', 'Burrito', 'Sandwich'), foods_with_an_a would be a list equal to ['Taco', 'Sandwich']
-"""
-
-# Your code here
-
-print('Exercise 8:', foods_with_an_a)
+# Call the function and print the result
+print('Exercise 5:', list_home_town_items())
 ```
