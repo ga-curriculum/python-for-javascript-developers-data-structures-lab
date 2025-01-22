@@ -1,4 +1,7 @@
-# ![Python Data Structures Lab - Setup](./assets/hero.png)
+<h1>
+  <span class="headline">Data Structures Lab</span>
+  <span class="subhead">Setup</span>
+</h1>
 
 ## Setup
 

@@ -1,4 +1,7 @@
-# ![Python Data Structures Lab](../assets/hero.png)
+<h1>
+  <span class="prefix">Python for JavaScript Developers</span>
+  <span class="headline">Data Structures Lab</span>
+</h1>
 
 ## About
 
@@ -8,3 +11,7 @@ In this lab, you'll practice working with different data structures in Python, i
 
 - [Setup](../setup/README.md)
 - [Exercise](../exercise/README.md)
+
+## Level Up
+
+🚀 [List Comprehensions Exercise](../list-comprehensions-exercise/README.md)
